@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Адаптивний дизайн під різні пристрої -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Адаптивний дизайн під різні пристрої -->
 
     <!-- CSS only підключення CDN bootstrap стилів-->
     <link
@@ -11,13 +12,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link href="style.css" rel="stylesheet" /> <!-- Зовнішня таблиця стилів -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Зовнішня таблиця стилів -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
-    /> <!-- Шрифт -->
+    />
+    <!-- Шрифт -->
 
-    <title>PePage</title> <!-- Заголовок сайту -->
+    <title>PePage</title>
+    <!-- Заголовок сайту -->
   </head>
 
   <body>
@@ -97,8 +101,8 @@
         data-bs-ride="carousel"         використовується для ініціалізації каруселі  
         data-bs-slide-to                порядок переключення слайдів
         aria-label                      ідентифікатор кожного слайду 
-    --> 
-    <div class="carousel-block" style="margin:0">
+    -->
+    <div class="carousel-block" style="margin: 0">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -126,11 +130,11 @@
             aria-label="Slide 3"
           ></button>
           <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="3"
-          aria-label="Slide 4"
-        ></button>
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <!--
             carousel-inner  блок налаштування контенту на слайдах
@@ -140,40 +144,39 @@
         -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="bt/1.jpg"
-              class="d-block w-100"
-              alt=""
-            />
+            <img src="bt/1.jpg" class="d-block w-100" alt="" />
             <div class="carousel-caption d-none d-md-block">
-                <h5>Навчайтесь</h5>
-                <p>Нові знання ніколи не будуть зайві.</p>
-              </div>
-          </div>
-          <div class="carousel-item">
-            <img src="bt/2.jpg" class="d-block w-100"  alt=""/>
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Тренуйте навики</h5>
-                <p>10 раз виконай - 1 раз вивчи.</p>
-            </div>
-          </div>
-    
-          <div class="carousel-item">
-            <img src="bt/3.jpg" class="d-block w-100"  alt=""/>
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Спілкуйтесь</h5>
-                <p>Люди зі схожими інтересами допоможуть вам з вашим ділом.</p>
+              <h5>Навчайтесь</h5>
+              <p>Нові знання ніколи не будуть зайві.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="bt/4.jpg" class="d-block w-100"  alt=""/>
+            <img src="bt/2.jpg" class="d-block w-100" alt="" />
             <div class="carousel-caption d-none d-md-block">
-                <h5>Насолоджуйся</h5>
-                <p>Кожен виконаний тобой проект піднімає твій скіл та допоможе в майбутньому.</p>
+              <h5>Тренуйте навики</h5>
+              <p>10 раз виконай - 1 раз вивчи.</p>
             </div>
           </div>
+
+          <div class="carousel-item">
+            <img src="bt/3.jpg" class="d-block w-100" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Спілкуйтесь</h5>
+              <p>Люди зі схожими інтересами допоможуть вам з вашим ділом.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bt/4.jpg" class="d-block w-100" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Насолоджуйся</h5>
+              <p>
+                Кожен виконаний тобой проект піднімає твій скіл та допоможе в
+                майбутньому.
+              </p>
+            </div>
           </div>
         </div>
+
         <!--
             carousel-control-prev      кнопка контролю назда 
             carousel-control-next      кнопка контролю вперед
@@ -213,7 +216,16 @@
         bg-transparent Прозорий фон
         border-0       Видалення рамок
     -->
-    <div class="card-block w-100 d-flex align-content-center justify-content-center flex-wrap">
+    <div
+      class="
+        card-block
+        w-100
+        d-flex
+        align-content-center
+        justify-content-center
+        flex-wrap
+      "
+    >
       <div class="card card-item bg-transparent border-0">
         <img src="bt/html.png" class="card-img-top" alt="" />
         <div class="card-body">
@@ -222,9 +234,7 @@
             Використовується для розмітки веб-сторінок.
           </p>
           <div class="mbr-section-btn mt-3 d-flex flex-column">
-            <a class="btn btn-secondary display-2" href="#"
-              >Вивчити</a
-            >
+            <a class="btn btn-secondary display-2" href="#">Вивчити</a>
           </div>
         </div>
       </div>
@@ -237,9 +247,7 @@
             Задання стилів елементам на сторінці
           </p>
           <div class="mbr-section-btn mt-3 d-flex flex-column">
-            <a class="btn btn-secondary display-2" href="#"
-              >Вивчити</a
-            >
+            <a class="btn btn-secondary display-2" href="#">Вивчити</a>
           </div>
         </div>
       </div>
@@ -252,9 +260,7 @@
             Скриптова мова програмування.
           </p>
           <div class="mbr-section-btn mt-3 d-flex flex-column">
-            <a class="btn btn-secondary display-2" href="#"
-              >Вивчити</a
-            >
+            <a class="btn btn-secondary display-2" href="#">Вивчити</a>
           </div>
         </div>
       </div>
