@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Адаптивний дизайн під різні пристрої -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Адаптивний дизайн під різні пристрої -->
 
     <!-- CSS only підключення CDN bootstrap стилів-->
     <link
@@ -11,13 +12,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link href="style.css" rel="stylesheet" /> <!-- Зовнішня таблиця стилів -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Зовнішня таблиця стилів -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
-    /> <!-- Шрифт -->
+    />
+    <!-- Шрифт -->
 
-    <title>PePage</title> <!-- Заголовок сайту -->
+    <title>PePage</title>
+    <!-- Заголовок сайту -->
   </head>
 
   <body>
@@ -90,7 +94,7 @@
       </div>
     </nav>
 
-    <section class="text-block">
+    <div class="text-block">
       <div class="container">
         <!--
             row                     задає рядок
@@ -123,7 +127,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <hr class="mt-5 mb-5" />
 
@@ -134,8 +138,8 @@
         data-bs-ride="carousel"         використовується для ініціалізації каруселі  
         data-bs-slide-to                порядок переключення слайдів
         aria-label                      ідентифікатор кожного слайду 
-    --> 
-    <section class="carousel-block">
+    -->
+    <div class="carousel-block">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -174,13 +178,14 @@
             <img
               src="data/istockphoto-1290492381-170667a.jpg"
               class="d-block w-100"
+              alt=""
             />
           </div>
           <div class="carousel-item">
-            <img src="data/unnamed.jpg" class="d-block w-100" />
+            <img src="data/unnamed.jpg" class="d-block w-100" alt="" />
           </div>
           <div class="carousel-item">
-            <img src="data/Web-design.jpg" class="d-block w-100" />
+            <img src="data/Web-design.jpg" class="d-block w-100" alt="" />
           </div>
         </div>
         <!--
@@ -210,7 +215,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </section>
+    </div>
 
     <hr class="mt-5 mb-5" />
     <!--
@@ -221,7 +226,16 @@
         card-title    Заголовок картки
         text-center   Центрування тексту
     -->
-    <section class="card-block w-100 d-flex align-content-center justify-content-center flex-wrap">
+    <div
+      class="
+        card-block
+        w-100
+        d-flex
+        align-content-center
+        justify-content-center
+        flex-wrap
+      "
+    >
       <div class="card card-item">
         <img src="data/1.png" class="card-img-top" alt="..." />
         <div class="card-body">
@@ -271,13 +285,13 @@
           </p>
         </div>
       </div>
-    </section>
+    </div>
 
     <hr class="mt-5 mb-5" />
-    <section class="footer d-flex flex-column">
+    <div class="footer d-flex flex-column">
       <div class="align-self-center">Звяжіться зі мною:</div>
       <a class="align-self-center" href="">Написати на пошту</a>
-    </section>
+    </div>
 
     <!-- JS only -->
     <script
